@@ -1,6 +1,6 @@
 # Texture Channel Switcher
 
-A high-performance batch processing tool for Windows. Use this to shuffle, invert, and repack texture channels (Red, Green, Blue, Alpha) from multiple images into new texture maps efficiently. This is just a nice fancy GUI wrapper for ImageMagick CLI to easily filter and batch process images.
+A batch texture channel swithcing tool for Windows. Use this to shuffle, invert, and repack texture channels (Red, Green, Blue, Alpha) from multiple images into new texture maps efficiently. This is just a nice fancy GUI wrapper for ImageMagick CLI to easily filter and batch process images.
 
 ![Application Screenshot](./screenshot.png)
 
