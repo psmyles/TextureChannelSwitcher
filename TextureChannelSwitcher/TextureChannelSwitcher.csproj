@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>app.ico</ApplicationIcon>
+        <AssemblyName>Texture Channel Switcher</AssemblyName>
+        <Version>0.1</Version>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <PlatformTarget>x64</PlatformTarget>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Magick.NET-Q8-x64" Version="14.10.2" />
+      <PackageReference Include="WPF-UI" Version="4.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="app.ico" />
+      <None Remove="app.png" />
+      <Resource Include="app.png" />
+    </ItemGroup>
+
+</Project>

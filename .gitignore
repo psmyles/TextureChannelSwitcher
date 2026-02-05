@@ -1,0 +1,14 @@
+# --- Build Output (Must Ignore) ---
+[Bb]in/
+[Oo]bj/
+
+# --- User-Specific IDE Settings ---
+.idea/
+*.sln.DotSettings.user
+*.suo
+*.user
+*.userprefs
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
